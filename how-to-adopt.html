@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Alexis Chondrogiannis">
+  <meta name="description" content="Learn the adoption process at FindMyPet. Step-by-step guidance to bring home your new furry friend safely and responsibly.">
+
+  <!-- Page Title -->
+  <title>Dog Adoption | Adoption Information</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">FindMyPet</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="adoptables.html">Adoptables</a></li>
+          <li class="nav-item"><a class="nav-link active" href="how-to-adopt.html">How to Adopt</a></li>
+          <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="container">
+      <h1>How to Adopt a Dog</h1>
+      <p>Follow our simple steps to bring home your new furry friend.</p>
+    </div>
+  </section>
+
+  <!-- STEP-BY-STEP PROCESS -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Step-by-Step Adoption Process</h2>
+      <ol class="ps-3">
+        <li>Browse our adoptable dogs on the <a href="adoptables.html">Adoptables page</a>.</li>
+        <li>Click "Adopt Me" on your preferred dog to view adoption instructions.</li>
+        <li>Fill out the adoption application form (download or online submission).<br>
+          <a href="#" class="btn btn-accent mt-2">Download Adoption Form</a></li>
+        <li>Schedule a meet-and-greet with the dog.</li>
+        <li>Complete the adoption agreement and pay applicable fees.</li>
+        <li>Bring your new companion home and enjoy your new family member!</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ADOPTION FEES -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4">Adoption Fees</h2>
+      <table class="table table-striped table-bordered">
+        <thead>
+          <tr>
+            <th>Dog Type</th>
+            <th>Fee</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Puppy (0-1 year)</td>
+            <td>$300</td>
+          </tr>
+          <tr>
+            <td>Adult (1-7 years)</td>
+            <td>$200</td>
+          </tr>
+          <tr>
+            <td>Senior (7+ years)</td>
+            <td>$100</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- FAQ ACCORDION -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Frequently Asked Questions</h2>
+      <div class="accordion" id="faqAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq1Heading">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1">
+              Can I adopt if I rent my home?
+            </button>
+          </h2>
+          <div id="faq1" class="accordion-collapse collapse" aria-labelledby="faq1Heading" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Yes, most landlords allow pets, but we recommend checking your lease first.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq2Heading">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+              Are adoption fees refundable?
+            </button>
+          </h2>
+          <div id="faq2" class="accordion-collapse collapse" aria-labelledby="faq2Heading" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              No, fees cover vaccinations, spaying/neutering, and care provided before adoption.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq3Heading">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+              Can I meet the dog before adopting?
+            </button>
+          </h2>
+          <div id="faq3" class="accordion-collapse collapse" aria-labelledby="faq3Heading" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Yes, scheduling a meet-and-greet is part of the adoption process.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOTTOM IMAGE -->
+  <section class="py-5 bg-light text-center">
+    <div class="container">
+      <img src="images/highlighted-pups.jpg" class="img-fluid rounded adoption-image" alt="Two Dogs That Need Forever Homes">
+      <p class="mt-2">Your new best friend could be here!</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 FindMyPet. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

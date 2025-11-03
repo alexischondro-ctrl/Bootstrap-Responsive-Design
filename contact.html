@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Alexis Chondrogiannis">
+  <meta name="description" content="Contact FindMyPet to ask questions or schedule a visit to meet your future pet.">
+
+  <!-- Page Title -->
+  <title>Dog Adoption | Contact</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">FindMyPet</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="adoptables.html">Adoptables</a></li>
+          <li class="nav-item"><a class="nav-link" href="how-to-adopt.html">How to Adopt</a></li>
+          <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Contact FindMyPet</h1>
+      <p>We’d love to hear from you! Reach out with questions about adoption, volunteering, or donations.</p>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Send Us a Message</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Full Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email Address</label>
+          <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="5" placeholder="Your message here" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-accent">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Location & Hours -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4">Location & Hours</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <h5>Address</h5>
+          <p>700 South Main Street<br>Harrisonburg, VA, USA 22801</p>
+          <h5>Phone</h5>
+          <p>(555) 283-9603</p>
+        </div>
+        <div class="col-md-6">
+          <h5>Hours</h5>
+          <p>Monday - Friday: 9am - 6pm<br>Saturday: 10am - 4pm<br>Sunday: Closed</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Links / Map -->
+  <section class="py-5 text-center">
+    <div class="container">
+      <h2 class="mb-4">Connect With Us</h2>
+      <div class="d-flex justify-content-center gap-3 mb-4">
+        <a href="#" class="btn btn-outline-primary">Facebook</a>
+        <a href="#" class="btn btn-outline-primary">Instagram</a>
+        <a href="#" class="btn btn-outline-primary">Twitter/X</a>
+      </div>
+      <img src="images/map.jpg" class="img-fluid rounded contact-map" alt="Image of Location on a Map">
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 FindMyPet. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

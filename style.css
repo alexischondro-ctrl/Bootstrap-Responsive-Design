@@ -1,0 +1,107 @@
+body {
+  font-family: 'Inter', sans-serif;
+  color: #1f2937;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+a {
+  color: #5bc0eb;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #39a1d8;
+  text-decoration: underline;
+}
+
+.navbar {
+  background-color: #ffffff;
+  border-bottom: 2px solid #5bc0eb;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #5bc0eb;
+}
+
+.navbar .nav-link {
+  color: #1f2937;
+  font-weight: 500;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #5bc0eb;
+}
+
+.btn-accent {
+  background-color: #5bc0eb;
+  color: #fff;
+  border-radius: 8px;
+  padding: 0.6rem 1.2rem;
+}
+
+.hero {
+  background-color: #5bc0eb;
+  color: #ffffff;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #000000;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  color: #ffffff;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: contain;
+  background-color: #f8f9fa;
+}
+
+.carousel-inner img {
+  width: 100%;
+  max-height: 300px; 
+  object-fit: contain;
+}
+
+.adoption-image {
+  max-width: 400px;
+  height: auto;
+}
+
+.contact-map {
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #ffffff;
+  border-top: 2px solid #5bc0eb;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.9rem;
+}

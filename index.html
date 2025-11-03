@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Alexis Chondrogiannis">
+  <meta name="description" content="FindMyPet helps you discover adoptable dogs in your area. Browse our featured dogs, learn the adoption process, and bring home your new furry friend today.">
+
+  <!-- Page Title -->
+  <title>Dog Adoption | Home</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">FindMyPet</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="adoptables.html">Adoptables</a></li>
+          <li class="nav-item"><a class="nav-link" href="how-to-adopt.html">How to Adopt</a></li>
+          <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Find the Dog That’s Right for You</h1>
+      <p>Explore adoptable dogs, learn about the adoption process, and bring home a new furry friend today!</p>
+      <a href="adoptables.html" class="btn btn-accent btn-lg mt-3">View Adoptable Dogs</a>
+    </div>
+  </section>
+
+  <!-- Carousel Section -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">Meet Some of Our Dogs</h2>
+      <div id="dogCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/logan-dog.jpg" class="d-block w-100" alt="Logan, a German Sheapard">
+          </div>
+          <div class="carousel-item">
+            <img src="images/lucy-dog.jpg" class="d-block w-100" alt="Lucy, a Black and Brown Dog">
+          </div>
+          <div class="carousel-item">
+            <img src="images/minnie-dog.jpg" class="d-block w-100" alt="Minnie, a Medium Black Dog">
+          </div>
+          <div class="carousel-item">
+            <img src="images/cooper-dog.jpg" class="d-block w-100" alt="Cooper, a Golden Retriever">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#dogCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#dogCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Dogs -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4 text-center">Featured Dogs</h2>
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-4 d-flex">
+          <div class="card">
+            <img src="images/max-dog.jpg" alt="Max, a Cheerful Pup">
+            <div class="card-body">
+              <h5>Max</h5>
+              <p>Friendly and energetic. Perfect for families with children.</p>
+              <a href="adoptables.html" class="btn btn-accent">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex">
+          <div class="card">
+            <img src="images/luna-dog.jpg" alt="Luna, a Small White Dog">
+            <div class="card-body">
+              <h5>Luna</h5>
+              <p>Gentle and calm. Loves cuddles and quiet walks.</p>
+              <a href="adoptables.html" class="btn btn-accent">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex">
+          <div class="card">
+            <img src="images/charlie-dog.jpg" alt="Charlie, a Border Collie">
+            <div class="card-body">
+              <h5>Charlie</h5>
+              <p>Playful and adventurous. Perfect for active owners.</p>
+              <a href="adoptables.html" class="btn btn-accent">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 FindMyPet. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS Bundle (needed for carousel) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
